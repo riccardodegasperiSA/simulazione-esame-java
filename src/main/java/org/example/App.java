@@ -22,7 +22,7 @@ public class App {
         int portNumber = 1234;
 
         if (args.length > 0) {
-            String hostName = args[0];
+            hostName = args[0];
             portNumber = Integer.parseInt(args[1]);
         }
 
