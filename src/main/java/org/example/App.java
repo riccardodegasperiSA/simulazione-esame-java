@@ -18,14 +18,12 @@ public class App {
 
     public static void main(String[] args) {
 
-        String hostname = new String();
-        int portNumber = Integer.parseInt(args[1]);
+        String hostname = "127.0.0.1";
+        int portNumber = 1234;
 
         if (args.length > 0) {
             String hostName = args[0];
-            portNumber = args[1];
-        } else {
-            hostname = "127.0.0.1";
+            portNumber = Integer.parseInt(args[1]);
         }
 
 
