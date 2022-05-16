@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class App {
 
-    static ArrayList<City> cities = new ArrayList<City>();
+    static ArrayList<City> cities = new ArrayList<>();
 
     private static ServerSocket serverSocket = null;
 
@@ -18,7 +18,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        String hostname = "127.0.0.1";
+        String hostName = "127.0.0.1";
         int portNumber = 1234;
 
         if (args.length > 0) {
